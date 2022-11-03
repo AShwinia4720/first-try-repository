@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T21:09:09 IST" name="Failed suite [Suite]" finished-at="2022-11-02T21:09:20 IST" duration-ms="10787">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T21:09:09 IST" name="Test(failed)" finished-at="2022-11-02T21:09:20 IST" duration-ms="10787">
+      <class name="Amazontestng123.NewTest12">
+        <test-method is-config="true" signature="a1()[pri:0, instance:Amazontestng123.NewTest12@694abbdc]" started-at="2022-11-02T21:09:09 IST" name="a1" finished-at="2022-11-02T21:09:12 IST" duration-ms="2638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+        <test-method is-config="true" signature="a2()[pri:0, instance:Amazontestng123.NewTest12@694abbdc]" started-at="2022-11-02T21:09:12 IST" name="a2" finished-at="2022-11-02T21:09:17 IST" duration-ms="4881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a2 -->
+        <test-method signature="a5()[pri:0, instance:Amazontestng123.NewTest12@694abbdc]" started-at="2022-11-02T21:09:17 IST" name="a5" finished-at="2022-11-02T21:09:18 IST" duration-ms="1743" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.amazon.in/events/greatindianfestival?ref_=nav_cs_gb1] but found [https://www.amazon.in/events/greatindianfestival?ref_=nav_cs_gb]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.amazon.in/events/greatindianfestival?ref_=nav_cs_gb1] but found [https://www.amazon.in/events/greatindianfestival?ref_=nav_cs_gb]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Amazontestng123.NewTest12.a5(NewTest12.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a5 -->
+        <test-method is-config="true" signature="y1(org.testng.ITestResult)[pri:0, instance:Amazontestng123.NewTest12@694abbdc]" started-at="2022-11-02T21:09:18 IST" name="y1" finished-at="2022-11-02T21:09:20 IST" duration-ms="1345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a5 status=FAILURE method=NewTest12.a5()[pri:0, instance:Amazontestng123.NewTest12@694abbdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- y1 -->
+        <test-method is-config="true" signature="y2()[pri:0, instance:Amazontestng123.NewTest12@694abbdc]" started-at="2022-11-02T21:09:20 IST" name="y2" finished-at="2022-11-02T21:09:20 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- y2 -->
+      </class> <!-- Amazontestng123.NewTest12 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
