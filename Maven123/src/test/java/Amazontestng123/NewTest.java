@@ -33,7 +33,7 @@ public class NewTest {
 
 	}
 	
-	@Test (priority=-1, invocationCount=2)
+	@Test (priority=-1, invocationCount=3)
 	public void a3() {
 		System.out.println("test1");
 		am123.best();
